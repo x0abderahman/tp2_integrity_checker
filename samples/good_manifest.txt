@@ -1,0 +1,3 @@
+# known-good manifest
+70bbeaa0f2d408a45827aa9d5bd58209564a5bd7b61d6c069267c9e9e35f97cd,clean_readme.txt
+1888673b4c962129e57b54b81fda2f967c52f87c28e9d7908e5fba0dfed097e3,notes.txt
