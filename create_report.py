@@ -197,10 +197,13 @@ pdf.add_page()
 pdf.section_title("4. Execution Evidence")
 pdf.body_text("The following screenshots demonstrate successful execution of the tool:")
 
-pdf.add_screenshot(SCREENSHOTS / "02_cargo_run.png", "Figure 2: SHA-256 verification and cargo run output", w=160)
-pdf.add_screenshot(SCREENSHOTS / "03_scan_result.png", "Figure 3: Scan result with match detection", w=160)
+pdf.add_screenshot(SCREENSHOTS / "02_cargo_run.png", "Figure 2: cargo run base scan output", w=160)
+pdf.add_screenshot(SCREENSHOTS / "03_cargo_scan.png", "Figure 3: Scan result with match detection", w=160)
 pdf.add_screenshot(SCREENSHOTS / "04_cargo_test.png", "Figure 4: cargo test - 12 unit tests + 4 integration tests", w=160)
 pdf.add_screenshot(SCREENSHOTS / "05_cargo_clippy.png", "Figure 5: cargo clippy - zero warnings", w=160)
+pdf.add_screenshot(SCREENSHOTS / "06_cargo_audit.png", "Figure 6: cargo audit - dependency vulnerabilities check", w=140)
+pdf.add_screenshot(SCREENSHOTS / "07_json.png", "Figure 7: JSON output format", w=160)
+pdf.add_screenshot(SCREENSHOTS / "08_good_manifest.png", "Figure 8: Known-good manifest mode", w=160)
 
 pdf.body_text("Generated CSV report content:")
 csv_content = (

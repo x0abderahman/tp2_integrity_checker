@@ -1,0 +1,18 @@
+{
+  "scan_timestamp": "1781515870",
+  "summary": {
+    "total": 1,
+    "clean": 0,
+    "known_good": 0,
+    "matches": 1,
+    "errors": 0
+  },
+  "files": [
+    {
+      "path": "samples/files/suspicious_dropper.txt",
+      "sha256": "44ea92bec1f9e8aa690d8aceddf1294e9fb4a71d39769d6f383e3915ac76bb3b",
+      "status": "MATCH",
+      "label": "Demo suspicious test sample"
+    }
+  ]
+}
